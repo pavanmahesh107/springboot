@@ -2,6 +2,7 @@ package dev.learningspringboot.Controller.DynamicInitialization;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
+//import org.springframework.stereotype.Component;
 
 @Qualifier("onlineorderobject")
 @Component
