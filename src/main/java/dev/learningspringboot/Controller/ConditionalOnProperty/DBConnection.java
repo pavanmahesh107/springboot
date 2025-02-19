@@ -9,10 +9,10 @@ import java.util.Objects;
 @Component
 public class DBConnection {
 
-    @Autowired
+    @Autowired(required = false)
     MySqlConnection mySqlConnection;
 
-    @Autowired
+    @Autowired(required = false)
     NoSqlConnection noSqlConnection;
 
     @PostConstruct
