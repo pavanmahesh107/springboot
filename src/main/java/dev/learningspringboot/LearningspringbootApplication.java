@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = "dev.learningspringboot.Controller.Profile") // If we don't mention also No issues, @SpringBootApplication contains @ComponentScan annotation.
+@ComponentScan(basePackages = "dev.learningspringboot.Controller.Aspectoriented") // If we don't mention also No issues, @SpringBootApplication contains @ComponentScan annotation.
 public class LearningspringbootApplication {
 
     public static void main(String[] args) {

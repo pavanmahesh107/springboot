@@ -1,0 +1,15 @@
+package dev.learningspringboot.Controller.Aspectoriented;
+
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.springframework.stereotype.Component;
+
+@Component
+@Aspect
+public class LoggingAspect {
+
+    @Before("within()String dev.learningspringboot.Controller.Aspectoriented.Employee)")
+    public void beforeLogging(){
+        System.out.println("Inside before method aspect");
+    }
+}
