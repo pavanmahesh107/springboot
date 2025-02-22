@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Aspect
 public class LoggingAspect {
 
-    @Before("within()String dev.learningspringboot.Controller.Aspectoriented.Employee)")
+    @Before("@annotation(org.springframework.web.bind.annotation.GetMapping)")
     public void beforeLogging(){
         System.out.println("Inside before method aspect");
     }
