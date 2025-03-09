@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.Future;
 
 @RestController
@@ -17,7 +18,8 @@ public class UserControl {
 
     @GetMapping(path = "/userservice")
     public String getUserMethod(){
-        Future<String> stringFuture = userServices.performTaskAsync();
+        // Future<String> stringFuture = userServices.performTaskAsync();
+        CompletableFuture<String> stringFuture = userServices.performTaskAsync();
         String output = null;
         try{
             output = stringFuture.get();  // wait for the performTaskAsync method to execute.
