@@ -11,6 +11,8 @@ public class UserController {
 
     @Autowired
     User user;
+    @Autowired
+    CustomInterceptor customInterceptor;
 
     @GetMapping(path = "/getuser")
     public String sampleMethod(){
@@ -21,6 +23,7 @@ public class UserController {
 //        } finally {
 //            System.out.println("I don't know what it is");
 //        }
+        customInterceptor.simpleMethod();
         return "success";
     }
 }
