@@ -1,4 +1,4 @@
-package dev.learningspringboot.Controller.CustomInterceptor;
+package dev.learningspringboot.Controller.CustomInterceptor.MyCustomInterceptor;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

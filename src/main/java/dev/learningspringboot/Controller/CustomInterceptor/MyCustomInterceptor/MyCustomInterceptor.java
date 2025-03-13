@@ -1,4 +1,4 @@
-package dev.learningspringboot.Controller.CustomInterceptor;
+package dev.learningspringboot.Controller.CustomInterceptor.MyCustomInterceptor;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

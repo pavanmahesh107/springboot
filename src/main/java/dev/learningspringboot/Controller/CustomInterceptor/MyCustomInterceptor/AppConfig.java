@@ -1,8 +1,7 @@
-package dev.learningspringboot.Controller.CustomInterceptor;
+package dev.learningspringboot.Controller.CustomInterceptor.MyCustomInterceptor;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 

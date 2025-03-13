@@ -1,4 +1,4 @@
-package dev.learningspringboot.Controller.CustomInterceptor;
+package dev.learningspringboot.Controller.CustomInterceptor.MyCustomInterceptor;
 
 import org.springframework.stereotype.Component;
 
