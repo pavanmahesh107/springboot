@@ -9,7 +9,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @SpringBootApplication
 @EnableTransactionManagement   // (Optional) To enable - @Transactional annotation.
 @EnableAsync
-@ComponentScan(basePackages = "dev.learningspringboot.Controller.CustomInterceptor.Filters") // If we don't mention also No issues, @SpringBootApplication contains @ComponentScan annotation.
+@ComponentScan(basePackages = "dev.learningspringboot.Controller.ExceptionHandler") // If we don't mention also No issues, @SpringBootApplication contains @ComponentScan annotation.
 public class LearningspringbootApplication {
 
     public static void main(String[] args) {
